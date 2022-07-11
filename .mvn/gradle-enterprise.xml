@@ -9,7 +9,7 @@
   </server>
   <buildScan>
     <captureGoalInputFiles>true</captureGoalInputFiles>
-    <backgroundBuildScanUpload>#{isFalse(env['GITHUB_ACTIONS'])}</backgroundBuildScanUpload>
+    <backgroundBuildScanUpload>false</backgroundBuildScanUpload>
     <publish>ALWAYS</publish>
     <publishIfAuthenticated>true</publishIfAuthenticated>
   </buildScan>
