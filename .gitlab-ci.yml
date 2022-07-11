@@ -3,4 +3,4 @@ image: maven:3-jdk-11
 build:
   script:
     - export GRADLE_ENTERPRISE_ACCESS_KEY="$GRADLE_ENTERPRISE_ACCESS_KEY"
-    - "mvn install -B"
+    - "mvn install -B -Dmaven.ext.class.path=ext/maven-build-scan-extension-sample-1.0.jar"
