@@ -1,0 +1,6 @@
+image: maven:3-jdk-11
+
+build:
+  script:
+    - export GRADLE_ENTERPRISE_ACCESS_KEY="$GRADLE_ENTERPRISE_ACCESS_KEY"
+    - "mvn install -B"
