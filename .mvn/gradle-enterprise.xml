@@ -13,4 +13,9 @@
     <publish>ALWAYS</publish>
     <publishIfAuthenticated>true</publishIfAuthenticated>
   </buildScan>
+  <buildCache>
+    <local>
+      <enabled>true</enabled>
+    </local>
+  </buildCache>
 </gradleEnterprise>
